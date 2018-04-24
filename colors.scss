@@ -1,0 +1,19 @@
+$navy: #012B74;
+$blue: #1662B6;
+$turquoise1: #27E8DF;
+$turquoise2: #00D2C8;
+$turquoise3: #00776F;
+$pink1: #FF8E96;
+$pink2: #FF6473;
+$pink3: #c44651;
+
+
+@mixin section-title {
+  font-family: Prata, serif;
+  font-weight: 300;
+  font-size: 6em;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  letter-spacing: 22px;
+}

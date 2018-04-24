@@ -1,0 +1,49 @@
+.fourth {
+  margin-right: 16%;
+  margin-left: 16%;
+  margin-bottom: 5%;
+  h1 {
+        @include section-title;
+        color: $pink1;
+  }
+  input {
+    border: none;
+    border-bottom: 3px solid $pink1;
+    height: 60px;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    color: $pink1;
+    &::placeholder {
+      color: $pink1;
+      opacity: 1;
+      padding-left: 3%;
+    }
+  }
+  button {
+    border: 2px solid $pink1;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    color: $pink1;
+    margin-top: 10%;
+    transition: 100ms;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-family: "Inconsolata", monospace;
+    color: #6B6878;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: .9em;
+    padding-left: 5%;
+  }
+}

@@ -1,0 +1,40 @@
+.third {
+  h1 {
+    @include section-title;
+    color: $navy;
+    margin-right: 16%;
+    margin-left: 16%;
+  }
+
+  .team {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .on-photo {
+      position: absolute;
+      font-family: "Inconsolata", monospace;
+      color: white;
+      top: 5%;
+      right: 30%;
+      letter-spacing: 1px;
+    }
+  }
+  .description {
+    padding-left: 3%;
+    h2 {
+      color: $blue;
+      font-family: 'Prata', serif;
+      font-size: 3em;
+    }
+  p {
+    font-family: "Inconsolata", monospace;
+    color: #6B6878;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: .9em;
+  }
+}
+}

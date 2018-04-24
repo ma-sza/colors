@@ -1,0 +1,24 @@
+.fifth {
+  background-color: $pink1;
+  padding-left: 16%;
+  padding-right: 16%;
+  height: 35vh;
+  position: relative;
+  overflow: hidden;
+
+  .icon {
+    margin: 30%;
+    transition: 100ms;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+}
+    .sm {
+      position: absolute;
+      left: 16%;
+      top: 50%;
+    }
+
+}

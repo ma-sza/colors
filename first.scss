@@ -1,0 +1,130 @@
+.first {
+  height: 100vh;
+  float: none;
+
+  p {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1px;
+  }
+
+  .navy {
+    background-color: $navy;
+    height: 100%;
+    position: relative;
+
+    nav {
+      font-family: 'Prata', serif;
+      font-weight: 300;
+      font-size: 1.5em;
+      font-weight: lighter;
+      padding-left: 4%;
+      position: fixed;
+      z-index: 2;
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+          float: left;
+
+          a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            color: $turquoise1;
+          }
+        }
+      }
+    }
+
+    img {
+      height: 55vh;
+      position: absolute;
+      top: 35%;
+      left: 6%;
+      z-index: 1;
+    }
+    p {
+      color: white;
+      position: absolute;
+      z-index: 2;
+      top: 83%;
+      padding-left: 20%;
+      padding-right: 4%;
+      text-align: right;
+    }
+    h1 {
+      font-family: Inconsolata monospace;
+      font-weight: 300;
+      font-size: 8em;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 48%;
+      z-index: 3;
+      text-align: right;
+      letter-spacing: 1px;
+    }
+    hr {
+      color: white;
+      position: absolute;
+      z-index: 2;
+      top: 83%;
+      left: 47%;
+      width: 300px;
+      border: 0;
+      border-top: 4px solid;
+      border-color: white;
+
+    }
+  }
+
+  .turquoise {
+    background-color: $turquoise1;
+    height: 100%;
+    position: relative;
+
+    img {
+      height: 37vh;
+      position: absolute;
+      top: 53%;
+      left: 12%;
+    }
+    p {
+      color: $turquoise3;
+      position: absolute;
+      z-index: 2;
+      top: 83%;
+      padding-left: 7%;
+      padding-right: 3%;
+      text-align: right;
+    }
+  }
+
+  .pink {
+    background-color: $pink1;
+    height: 100%;
+    position: relative;
+
+    img {
+      height: 37vh;
+      position: absolute;
+      top: 53%;
+      left: 12%;
+    }
+    p {
+      color: $pink3;
+      position: absolute;
+      z-index: 2;
+      top: 83%;
+      padding-left: 7%;
+      padding-right: 3%;
+      text-align: right;
+    }
+  }
+}
